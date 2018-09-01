@@ -121,7 +121,7 @@ With germaine, you can get access at **any depth segment** of the file from the 
 
 
 
-For example, you can** get the content of the homepage** this way :
+For example, you can **get the content of the homepage** this way :
 
     GET /germaine/pages/home
 
@@ -142,16 +142,16 @@ This let you define more or less complexes structures and **sort your content** 
 
 
 
--   When you only need to get** static content** from a server
+-   When you only need to get **static content** from a server
 -   For building **tests**
--   When you have to build something that needs to make** simple API calls**, but the API has not been developed
+-   When you have to build something that needs to make **simple API calls**, but the API has not been developed
 
 
 
 
 # Can I use it on production?
 
-Yes **of course**! Germaine is a** simple middleware for express**, so it's up to you to add any restrictions and controls you which. 
+Yes **of course**! Germaine is a **simple middleware for express**, so it's up to you to add any restrictions and controls you which. 
 
 
 
