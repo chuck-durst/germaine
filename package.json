@@ -4,6 +4,8 @@
   "description": "Germaine is an ExpressJs middleware that allows you to quickly deploy an API that listens on a given endpoint and serves content from a JSON file.",
   "main": "index.js",
   "scripts": {
+    "dev": "NODE_ENV=development node ./example/server.js",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/chuck-durst/germaine/issues"
   },
-  "homepage": "https://github.com/chuck-durst/germaine#readme"
+  "homepage": "https://github.com/chuck-durst/germaine#readme",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
 }
