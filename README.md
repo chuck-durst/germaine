@@ -1,4 +1,7 @@
-## Germaine is an ExpressJs middleware that allows you to quickly deploy an API that listens on a given endpoint and serves content from a JSON file.
+**Germaine is an ExpressJs middleware that allows you to quickly deploy an API that listens on a given endpoint and serves content from a JSON file.**
+
+
+
 
 # Features
 
@@ -9,6 +12,9 @@
 -   dynamic reading
 -   Define your endpoints in a funny way :)
 
+
+
+
 # Installing
 
 Using npm:
@@ -18,6 +24,9 @@ Using npm:
 Using bower:
 
     $ bower install germaine
+
+
+
 
 # API
 
@@ -33,8 +42,9 @@ The path to the file used as database. It can be JSON or JavaScript.
 
 | **NAME** |                                  **TYPE**                                 | **DESCRIPTION**                                                                                                                                                                                                                    |
 | :------- | :-----------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| isStatic | boolean                                                **Default**: false | By default, the file will be read **each time the url is called**. This allows you to update the content at any time without having to restart the whole server. You can disable this feature by setting **isStatic **to **true**. |
+| isStatic | boolean                                                **Default**: false | By default, the file will be read **each time the url is called**. This allows you to update the content at any time without having to restart the whole server. You can disable this feature by setting **isStatic** to **true**. |
 | delay    | int,object                                             **Default**: 0     | You can add a custom delay (**ms**) to the requests. This is useful to simulate lazy loading for example.  You can also provide an object with the **min** and **max** properties to randomise the delay.                          |
+
 
 
 
@@ -63,6 +73,9 @@ The path to the file used as database. It can be JSON or JavaScript.
       console.log('germaine listening on localhost:3030/germaine!');
 
     });
+
+
+
 
 # How it works
 
@@ -104,7 +117,7 @@ Let's assume that this JSON represents your database:
 
 
 
-With germaine, you can get access at **any depth segment **of the file from the url.
+With germaine, you can get access at **any depth segment** of the file from the url.
 
 
 
@@ -120,7 +133,8 @@ But you can also **only ask for the page title**!
 
 
 
-This let you define more or less complexes structures and** sort your content **very easily! 
+This let you define more or less complexes structures and **sort your content** very easily! 
+
 
 
 
@@ -134,9 +148,11 @@ This let you define more or less complexes structures and** sort your content **
 
 
 
+
 # Can I use it on production?
 
 Yes **of course**! Germaine is a** simple middleware for express**, so it's up to you to add any restrictions and controls you which. 
+
 
 
 
@@ -169,6 +185,7 @@ Germaine would like not to overweight. She therefore does not prefer to transfor
      console.log('germaine listening on localhost:3030/germaine!');
 
     });
+
 
 
 
@@ -209,6 +226,7 @@ Germaine would like not to overweight. She therefore does not prefer to transfor
     console.log('germaine listening on localhost:3030/germaine!');
 
     });
+
 
 
 
