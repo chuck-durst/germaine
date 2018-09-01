@@ -34,7 +34,7 @@ The path to the file used as database. It can be JSON or JavaScript.
 | **NAME** |                                  **TYPE**                                 | **DESCRIPTION**                                                                                                                                                                                                                    |
 | :------- | :-----------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | isStatic | boolean                                                **Default**: false | By default, the file will be read **each time the url is called**. This allows you to update the content at any time without having to restart the whole server. You can disable this feature by setting **isStatic **to **true**. |
-| delay    |    int|object                                            **Default**: 0   | You can add a custom delay (**ms**) to the requests. This is useful to simulate lazy loading for example.  You can also provide an object with the **min** and **max** properties to randomise the delay.                          |
+| delay    | int,object                                             **Default**: 0     | You can add a custom delay (**ms**) to the requests. This is useful to simulate lazy loading for example.  You can also provide an object with the **min** and **max** properties to randomise the delay.                          |
 
 
 
