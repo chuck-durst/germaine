@@ -1,6 +1,6 @@
 {
   "name": "germaine",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Germaine is an ExpressJs middleware that allows you to quickly deploy an API that listens on a given endpoint and serves content from a JSON file.",
   "main": "build/index.js",
   "scripts": {

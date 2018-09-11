@@ -35,6 +35,10 @@ module.exports = function germaine(path, { isStatic, delay } = {}) {
 
   return ({ url }, res) => {
 
+    if (url.includes('?')) {
+      url = url.split('?')[0];
+    }
+
     // If the api should not be static, we must read the file at each call
     if (isStatic !== false) {
       try {
